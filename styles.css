@@ -79,6 +79,161 @@ a.cta-button:hover{
     background-color: #EAFAFF;
 }
 
+h2{
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.new{
+    /*max-height: 100rem;*/
+    display: flex;
+    overflow-x: auto;
+    padding: 5rem;
+}
+
+.new,
+.item{
+    /*min-width: 20rem;
+    height: 25rem;*/
+    display: flex;
+    margin-left: -1.3rem;
+    margin-top: -2rem;
+    margin-right: 3rem;
+    /*margin-right: 1rem;
+    margin-left: 1.2rem;*/
+    position: relative;
+}
+
+.image{
+    object-fit: fill;
+    max-height: 24.3rem;
+}
+
+.text{
+    position: absolute;
+    margin-top: 25.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.text2{
+    position: absolute;
+    margin-top: 27.5rem;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.new::-webkit-scrollbar{
+    overflow: hidden;
+}
+
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 40%;
+    padding: 10px;
+    position: relative;
+}
+
+.text-winx{
+    position: absolute;
+    font-size: 0.8rem;
+    margin-top: -4.8rem;
+    margin-left: 0.7rem;
+}
+
+.winx,
+.winx2{
+    padding: 0.4rem;
+}
+
+.text-news{
+    position: absolute;
+    font-size: 0.8rem;
+    margin-top: -4.8rem;
+    margin-left: 0.7rem;
+    color: white;
+}
+
+.news,
+.news2{
+    padding: 0.4rem;
+}
+
+.winx-fade{
+    opacity: 50%;
+}
+
+.winx-fade:hover{
+    opacity: 100%;
+}
+
+.news-fade{
+    opacity: 50%;
+}
+
+.news-fade:hover{
+    opacity: 100%;
+}
+
+/*THIS IS THE WOMENS AND MENS PAGE*/
+
+.row-women{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.column-women{
+    flex: 33.33%;
+    padding: 1rem;
+}
+
+.text-women{
+    font-size: 0.7rem;
+    padding-top: 0.5rem;
+    font-weight: 500;
+}
+
+.text-women2{
+    font-size: 0.7rem;
+    padding-top: 0.5rem;
+    font-weight: 400;
+}
+
+.colors-womens{
+    display: flex;
+}
+
+.color,
+.color2,
+.color3{
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 100%;
+    margin-right: 0.5rem;
+    margin-top: 0.7rem;
+}
+
+.color{
+    background-color: #56667E;
+}
+
+.color2{
+    background-color: black;
+}
+
+.color3{
+    background-color: #630000;
+}
+
+/*THIS IS THE PRODUCT PAGE*/
+
+/*MEDIA QUERIES*/
+
 @media all and (max-width:30em){
     a.cta-button{
         display: block;
@@ -135,4 +290,21 @@ a.cta-button:hover{
         margin-top: 1rem;
         position: absolute;
     }
+
+    .text-women{
+        font-size: 0.9rem;
+        padding-top: 0.7rem
+    }
+    
+    .text-women2{
+        font-size: 0.9rem;
+        padding-top: 0.7rem;
+    }
+
+    .color,
+    .color2,
+    .color3{
+    width: 0.8rem;
+    height: 0.8rem;
+}
 }
