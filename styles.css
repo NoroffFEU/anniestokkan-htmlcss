@@ -125,6 +125,7 @@ h2{
     font-weight: 400;
     font-size: 1rem;
 }
+
 .new::-webkit-scrollbar{
     overflow: hidden;
 }
@@ -231,6 +232,146 @@ h2{
 }
 
 /*THIS IS THE PRODUCT PAGE*/
+
+.product-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 3rem;
+}
+
+.container-text{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 3rem;
+}
+
+.text-item{
+    position: absolute;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.text-item2{
+    position: absolute;
+    margin-top: 2.5rem;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.line{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 0.1rem;
+    background-color: black;
+    margin-top: 8rem;
+}
+
+.container-text2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 1rem;
+}
+
+.color4,
+.color5,
+.color6{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.color4{
+    background-color: #56667E;
+}
+
+.color5{
+    background-color: black;
+}
+
+.color6{
+    background-color: #630000;
+}
+
+h3{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 3rem;
+}
+
+.size-boxes{
+    display: flex;
+    justify-content: center;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-top: 1rem;
+    /*justify-content: space-evenly;*/
+}
+
+.size-box{
+    padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    margin-right: 2rem;
+    outline: 0.1rem solid #c6c6c6;
+    font-size: 0.8rem;
+}
+
+a.button{
+    display: flex;
+    padding: 0.8rem 15rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    background-color: #808080;
+    text-align: center;
+}
+
+.size-guide{
+    margin-top: 3rem;
+    text-decoration: underline;
+}
+
+.payment-logos{
+    margin-top: 1.5rem;
+}
+
+.product{
+    margin-top: 4rem;
+    font-size: 1rem;
+}
+
+.product-p{
+    margin-top: 2.5rem;
+}
+
+.product-p2,
+.product-p3{
+    margin-top: 1.5rem;
+}
+
+.line2{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 0.1rem;
+    background-color: black;
+    margin-top: 3rem;
+}
+
+li{
+    margin-left: -1.2rem;
+    margin-top: 2rem;
+}
+
 
 /*MEDIA QUERIES*/
 
