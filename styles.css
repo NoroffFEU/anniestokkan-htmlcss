@@ -372,6 +372,46 @@ li{
     margin-top: 2rem;
 }
 
+/*THIS IS THE ABOUT PAGE*/
+
+h2.about-header{
+    text-align: center;
+}
+
+.header-text{
+    line-height: 2rem;
+}
+
+p{
+    font-weight: 300;
+}
+
+.pic-about{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.container-text3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 3rem;
+}
+
+.sub-headers{
+    font-weight: 300;
+    position: absolute;
+    margin-left: 0rem;
+}
+
+.about-text{
+    margin-top: 6rem;
+    line-height: 2rem;
+}
 
 /*MEDIA QUERIES*/
 
@@ -448,4 +488,13 @@ li{
     width: 0.8rem;
     height: 0.8rem;
 }
+
+.container-text3{
+    width: 50%;
+}
+
+.about-pic{
+    width: 50%;
+}
+
 }
