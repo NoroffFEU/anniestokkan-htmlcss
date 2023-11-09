@@ -13,7 +13,6 @@ nav,
 
 header{
     position: relative;
-    /*padding: 10px 20px;*/
     padding: 3rem 1.7rem;
     font-size: 1.5rem;
     background: #DCF7FF;
@@ -68,7 +67,6 @@ nav a{
 
 .banner {
     position: relative;
-    /*height: 45rem;*/
     text-align: center;
 }
 
@@ -76,7 +74,6 @@ nav a{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /*object-position: center;*/
     margin: 0;
 }
 
@@ -85,9 +82,7 @@ nav a{
     inset: 0;
     padding: 1rem;
     display: flex;
-    /*align-items: center;*/
     justify-content: center;
-    /*text-align: center;*/
     margin-top: 5rem;
 }
 
@@ -123,7 +118,6 @@ h2{
 }
 
 .new{
-    /*max-height: 100rem;*/
     display: flex;
     overflow-x: auto;
     padding: 5rem;
@@ -131,14 +125,10 @@ h2{
 
 .new,
 .item{
-    /*min-width: 20rem;
-    height: 25rem;*/
     display: flex;
     margin-left: -1.3rem;
     margin-top: -2rem;
     margin-right: 3rem;
-    /*margin-right: 1rem;
-    margin-left: 1.2rem;*/
     position: relative;
 }
 
@@ -345,30 +335,28 @@ h3{
 
 .size-boxes{
     display: flex;
-    justify-content: center;
-    /*margin-left: auto;
-    margin-right: auto;*/
     margin-top: 1rem;
-    /*justify-content: space-evenly;*/
 }
 
 .size-box{
-    padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    padding: 0.2rem 1rem 0.2rem 1rem;
     margin-right: 2rem;
     outline: 0.1rem solid #c6c6c6;
     font-size: 0.8rem;
 }
 
-a.button{
-    display: flex;
-    padding: 0.8rem 15rem;
-    margin-top: 3rem;
-    border-radius: 1rem;
+.button-add{
+    display: inline-block;
+    padding: 0.4rem 10rem;
+    border-radius: 0.5rem;
     box-sizing: border-box;
     text-decoration: none;
     color: white;
     background-color: #808080;
     text-align: center;
+    font-weight: 200;
+    margin-top: 2rem;
+    font-size: 0.8rem;
 }
 
 .size-guide{
@@ -416,6 +404,7 @@ h2.about-header{
 
 .header-text{
     line-height: 2rem;
+    margin-top: 2rem;
 }
 
 p{
@@ -435,17 +424,17 @@ p{
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    margin-top: 3rem;
 }
 
 .sub-headers{
     font-weight: 300;
     position: absolute;
     margin-left: 0rem;
+    margin-bottom: 2rem;
 }
 
 .about-text{
-    margin-top: 6rem;
+    margin-top: 10rem;
     line-height: 2rem;
 }
 
@@ -456,8 +445,6 @@ p{
     width: 100%;
     height: 25rem;
     padding: 2rem;
-    /*-moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;*/
     box-sizing: border-box;
     overflow: hidden;
     margin-top: 6rem;
@@ -561,8 +548,6 @@ p{
     width: 100%;
     height: 100rem;
     padding: 2rem;
-    /*-moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;*/
     box-sizing: border-box;
     overflow: hidden;
     margin-top: 3rem;
@@ -610,14 +595,11 @@ p{
     width: 100%;
     height: 10rem;
     padding: 2rem;
-    /*-moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;*/
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
     margin-top: 3rem;
-    /*background-color: #FBF9F7;*/
 }
 
 .checkout-box,
@@ -674,7 +656,6 @@ p{
 }
 
 .button-discount{
-    /*display: inline-block;*/
     float: right;
     padding: 0.4rem 1.7rem;
     border-radius: 0.5rem;
@@ -708,8 +689,6 @@ p{
     width: 100%;
     height: 100rem;
     padding: 2rem;
-    /*-moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;*/
     box-sizing: border-box;
     overflow: hidden;
     margin-top: 3rem;
@@ -923,19 +902,19 @@ p{
         align-items: center;
     }
 
-    .contact-container2{
+    .contact-container{
         position: relative;
-        height: 140rem;
+        height: 130rem;
     }
 
-    .contact-box3,
-    .contact-box4{
+    .contact-box,
+    .contact-box2{
         position: absolute;
         width: 90%;
     }
 
-    .contact-box4{
-        margin-top: 21rem;
+    .contact-box2{
+        margin-top: 90rem;
     }
 
     .heading-contact{
@@ -985,7 +964,6 @@ p{
         display: block;
         position: static;
         background: #DCF7FF;
-        /*height: 7rem;*/
         padding-top: 3rem;
         padding-bottom: 2rem;
     }
