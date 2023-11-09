@@ -13,8 +13,10 @@ nav,
 
 header{
     position: relative;
-    padding: 10px 20px;
+    /*padding: 10px 20px;*/
+    padding: 3rem 1.7rem;
     font-size: 1.5rem;
+    background: #DCF7FF;
 }
 
 nav{
@@ -30,6 +32,38 @@ nav a{
     text-decoration: none;
     padding: 10px 55px;
     font-size: 1rem;
+}
+
+.logo-box{
+    display: none;
+}
+
+.logo-box2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: fill;
+}
+
+.logo2{
+    position: absolute;
+    margin-top: -3.3rem;
+    margin-left: -4rem;
+}
+
+.cart{
+    display: none;
+}
+
+.cart2{
+    position: relative;
+    float: right;
+    margin-top: -2rem;
+}
+
+.fa-cart-shopping{
+    color: black;
 }
 
 .banner {
@@ -711,7 +745,7 @@ p{
     margin-top: 2rem;
 }
 
-label{
+.label-news{
     font-size: 0.8rem;
     font-weight: 200;
     margin-left: 0.6rem;
@@ -758,6 +792,7 @@ label{
 .sub-headers-checkout2{
     padding-top: 2rem;
 }
+
 .button-pay{
     display: inline-block;
     padding: 0.4rem 1.7rem;
@@ -771,6 +806,94 @@ label{
     margin-top: 2rem;
     font-size: 0.8rem;
     margin-left: 1.9rem;
+}
+
+/*THIS IS THE CART PAGE*/
+
+.row-cart{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.column-cart,
+.column-cart2{
+    flex: 50%;
+    padding: 1rem;
+}
+
+.cart-image{
+    height: 10rem;
+    float: right;
+}
+
+.cart-size{
+    font-weight: 500;
+}
+
+.column-cart2{
+    flex: 50%;
+    padding: 1rem;
+    margin-top: -5rem;
+}
+
+.quantity,
+.quantity2{
+    padding: 0.6rem;
+    margin-right: -0.3rem;
+    float: right;
+}
+
+.quantity{
+    border: solid 0.1rem #F1F1F1;
+}
+
+.quantity2{
+    background-color: #F1F1F1;
+    border: solid 0.1rem #F1F1F1;
+}
+
+.box-quantity{
+    margin-right: 5.5rem;
+}
+
+.price-cart{
+    margin-left: 8.8rem;
+}
+
+.checkout-box{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.subtotal{
+    margin-top: 4rem;
+}
+
+.shipping{
+    color: #808080;
+    font-size: 0.8rem;
+}
+.button-cart{
+    display: inline-block;
+    padding: 0.7rem 10.5rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    background-color: #808080;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 3rem;
+    font-size: 0.8rem;
+}
+
+.continue{
+    text-decoration: none;
+    color: #808080;
+    font-size: 0.9rem;
 }
 
 /*MEDIA QUERIES*/
@@ -867,6 +990,10 @@ label{
         padding-bottom: 2rem;
     }
 
+    header{
+        padding: 1rem 1.7rem;
+    }
+
     .hamburger-icon{
         display: none;
     }
@@ -885,6 +1012,18 @@ label{
         float: right;
     }
 
+    .cart{
+        position: relative;
+        margin-top: -2.4rem;
+        float: right;
+        display: flex;
+    }
+
+    .fa-cart-shopping{
+        position: absolute;
+        padding-left: 2.5rem;
+    }
+
     .logo-box{
         position: relative;
         display: flex;
@@ -894,8 +1033,13 @@ label{
     }
     
     .logo{
-        margin-top: 1rem;
+        margin-top: -1rem;
+        margin-left: -4.5rem;
         position: absolute;
+        }
+
+    .logo-box2{
+        display: none;
     }
 
     .text-women{
