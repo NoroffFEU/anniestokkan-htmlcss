@@ -510,7 +510,6 @@ p{
 }
 
 .right-text{
-    /*position: absolute;*/
     float: right;
     margin-top: -1.1rem;
 }
@@ -617,6 +616,30 @@ p{
 
 .checkout-image{
     width: 60%;
+}
+
+.checkout-container3{
+    width: 100%;
+    height: 10rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-top: 3rem;
+}
+
+.checkout-box4,
+.checkout-box6{
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.checkout-box5{
+    float: left;
+    width: 40%;
+    height: 100%;
 }
 
 .willow-name,
@@ -917,6 +940,21 @@ p{
         margin-top: 90rem;
     }
 
+    .contact-container2{
+        position: relative;
+        height: 130rem;
+    }
+
+    .contact-box3,
+    .contact-box4{
+        position: absolute;
+        width: 90%;
+    }
+
+    .contact-box4{
+        margin-top: 25rem;
+    }
+
     .heading-contact{
         text-align: center;
     }
@@ -995,6 +1033,10 @@ p{
         margin-top: -2.4rem;
         float: right;
         display: flex;
+    }
+
+    .cart2{
+        display: none;
     }
 
     .fa-cart-shopping{
